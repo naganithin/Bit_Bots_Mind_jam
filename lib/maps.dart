@@ -31,6 +31,7 @@ class MapSampleState extends State<MapSample> {
   @override
   Widget build(BuildContext context) {
     return GoogleMap(
+      
         myLocationEnabled: true,
       compassEnabled: true,
       buildingsEnabled:true,
